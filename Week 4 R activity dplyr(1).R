@@ -47,9 +47,7 @@ df3 %>%group_by(gender)
 
 #Let's see how many students were examined in the dataset (total the frequency)
 #TASK: replace 'datasetname' with the name of your dataset and get the total
-#After you run it, write the total here:32
-
-#this code was throwing an error which i couldn't get through, hence used nrow(df3) to find number of students examined in the dataset
+#After you run it, write the total here: 592
 total=mutate(df, total=cumsum(Freq))
 
 #Since we have a males dataset, let's make a females dataset
